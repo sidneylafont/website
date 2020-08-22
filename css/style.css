@@ -170,12 +170,25 @@ h1 {
 	width: 25%;
 }
 
+.space {
+	margin-top: 13%;
+}
+
 .left {
 	margin-left: 8%;
 	border:40px solid #A6D608;
 	float: left;
 	height: 30%;
 	width: 30%;
+}
+
+.leftMiddle {
+	margin-left: 8%;
+	border:40px solid #A6D608;
+	float: left;
+	height: 30%;
+	width: 30%;
+	margin-top: 4.5%;
 }
 
 .about {

@@ -2,6 +2,7 @@
 <html>
 
 	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 		<title>Sidney Roch La Fontaine</title>
 		<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet"/>
@@ -10,7 +11,8 @@
 
 	<body class="home">
 		<div id="nav-bar">
-			<a href="main.html" class="nodeco"> <h1 class="inline-block nav vcenter">BIO</h1> </a>
+			<a href="https://github.com/sidneylafont" class="nodeco"><img src="images/favicon.ico" class="inline-block vcenter"></a>
+			<a href="index.html" class="nodeco"> <h1 class="inline-block nav vcenter">BIO</h1> </a>
 			<a href="#work" class="nodeco"> <h1 class="inline-block nav vcenter">WORK</h1> </a>
 			<a href="#projects" class="nodeco"> <h1 class="inline-block nav vcenter">PROJECTS</h1> </a>
 			<a href="images/resume.pdf" class="nodeco"> <h1 class="inline-block nav vcenter">RESUME</h1> </a>
@@ -19,7 +21,7 @@
 		</div>
 		<h1 class="name center">SIDNEY ROCH LA FONTAINE</h1>
 
-		<img src="images/selfie.jpeg" class="right">
+		<a href="https://github.com/sidneylafont" class="nodeco"><img src="images/selfie.jpeg" class="right"></a>
 
 
 		<div class="bio">
@@ -35,21 +37,30 @@
 				mentoring other computer science tutors. I get great satisfaction in helping students grow their ability to learn and
 				understanding of computer science principles.<br>
 				&emsp;&nbsp;I am a passionate person dedicated to pursuing my interests with a witty sense of humor, whether that is
-				green energy solutions, sports analytics, or music. I strongly believe that a small group of motivated individuals can change
+				green energy solutions, sports analytics, or bioinformatics. I strongly believe that a small group of motivated individuals can change
 				the world one day at a time and I cannot wait to get started!<br>
-				&emsp;&nbsp;Here are a few programming languages I've been working with recently:
+				&emsp;&nbsp;Here are a few programming languages and technologies I've been working with recently:
 				<div class="listL">
 					<ul>
 						<li>Java</li>
 						<li>R</li>
-						<li>C++</li>
+						<li>JavaScript</li>
+						<li>Tableau</li>
+						<li>MongoDB</li>
+						<li>Reddis</li>
+						<li>Jupyter Notebook</li>
 						<li>HTML</li>
+						<li>D3</li>
 					</ul>
 				</div>
 				<div class="listR">
 					<ul>
 						<li>Python</li>
 						<li>SQL</li>
+						<li>Scala</li>
+						<li>C++</li>
+						<li>Apache Spark</li>
+						<li>Neo4j</li>
 						<li>Racket</li>
 						<li>CSS</li>
 					</ul>
@@ -67,7 +78,7 @@
 				always willing to take as much time as I needed to understand. When a large group of students had a common problem,
 				he even invited us to the board and used diagrams or drawings to help everyone at once, which I found to be very
 				efficient considering the consistently high ratio of students to TAs in office hours. However, I personally felt that
-				what helped me the most was Sid’s use of his past experiences to help me gain confidence and pride in my work. As a
+				what helped me the most was his use of his past experiences to help me gain confidence and pride in my work. As a
 				student with no prior computer science experience, I felt hopelessly behind, but his ability to relate to my position
 				made it clear that success was anything but impossible."
 			</blockquote>
@@ -100,6 +111,9 @@
 			<a name="projects"></a>
 			<h1 class="centerLabelForProject">Personal Projects</h2>
 		</div>
+
+		<div class="space"> </div>
+
 		<img src="images/turbine.jpg" class="left">
 
 		<div class="bioReverse">
@@ -124,6 +138,71 @@
 				<p class="centerText">
 					The full project is available
 					<a href="https://github.com/sidneylafont/Wind-Energy" class="white">HERE </a>
+				</p>
+				<p class="centerText">
+					A presentation is available
+					<a href="https://www.youtube.com/watch?v=N5VOiLbJhPc" class="white">HERE </a>
+				</p>
+		</div>
+
+		<div class="space"> </div>
+
+		<img src="images/biolink.jpg" class="leftMiddle">
+
+		<div class="bioReverse">
+			<h1 class="subname center quest"> Biolink</h2>
+				<p class="about alignLeft quest">
+					&emsp;&nbsp;Biolink is a database of networked biological knowledge, mostly derived from PubChem, reformatted
+					into Neo4j to leverage the abilities of a graph database management system. The goal of Biolink is to create a
+					multi-model database to support queries on biological knowledge in the domains of genes, proteins, diseases,
+					clinical trials, pathways, functional annotations (GO), bioassays, and compounds (Pubchem). Biolink can also
+					serve as a nomenclature translation service.<br>
+
+					&emsp;&nbsp;I worked on a team tasked with expanding Biolink by adding new node types  and associations from
+					the data found in PubChem. Specifically, we added the new node types Bioassays and Compounds and associations from
+					Bioassays to Genes (a node type that already existed in Neo4j) and Compounds to Bioassays. As a final result, now
+					that we have added compounds and their associated bioassays, we can understand the effects of compounds on various
+					diseases - since compounds are tested by specific bioassays, which interact with genes, which are associated with
+					diseases.<br>
+
+
+
+				</p>
+				<p class="centerText">
+					The full project is available
+					<a href="https://github.com/rachlin/biolink" class="white">HERE </a>
+				</p>
+		</div>
+
+		<div class="space"> </div>
+
+		<img src="images/bostonLocalFoodFestival.jpg" class="leftMiddle">
+
+		<div class="bioReverse">
+			<h1 class="subname center quest"> Boston Local Food Data Dashboard</h2>
+				<p class="about alignLeft quest">
+					&emsp;&nbsp;The dashboard of visualizations were design with and for the Sustainable Business Network of
+					Massachusetts a nonprofit organization in the Boston area that promotes local farms with sustainable practices.
+					The Project was coded using a combination of JavaScript, D3 (a JavaScript library for creating interactive data
+					visualizations in	web browsers), HTML, and CSS.<br>
+
+					&emsp;&nbsp;My team's project is a dashboard that aims to promote awareness among buyers and wholesale producers
+					(vendors) about the availability of sustainable and local food. Through our dashboard, we aim to foster these
+					relationships by filling in the information gap that exists between buyers looking to purchase local food, and
+					wholesale producers looking for more distribution channels. The needs of the organization include connecting buyers
+					to vendors as larger institutions (buyers) are not well informed about the availability of local food. We are
+					addressing this need by creating a dashboard that identifies the location of various vendors that wholesale
+					local food, along with how much they produce and are willing to increase in production (and whether or not they
+					have a trade relationship) so that buyers can connect to them.<br>
+
+				</p>
+				<p class="centerText">
+					The full project is available
+					<a href="https://github.com/NEU-DS-4200-S20/s-l-project-sbn-9-local-food" class="white">HERE </a>
+				</p>
+				<p class="centerText">
+					A demo video is available
+					<a href="https://youtu.be/4no1FpRXcvI" class="white">HERE </a>
 				</p>
 		</div>
 
