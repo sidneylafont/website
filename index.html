@@ -13,6 +13,7 @@
 		<div id="nav-bar">
 			<a href="https://github.com/sidneylafont" class="nodeco"><img src="images/favicon.ico" class="inline-block vcenter"></a>
 			<a href="index.html" class="nodeco"> <h1 class="inline-block nav vcenter">BIO</h1> </a>
+			<a href="#publications" class="nodeco"> <h1 class="inline-block nav vcenter">PUBLICATIONS</h1> </a>
 			<a href="#work" class="nodeco"> <h1 class="inline-block nav vcenter">WORK</h1> </a>
 			<a href="#projects" class="nodeco"> <h1 class="inline-block nav vcenter">PROJECTS</h1> </a>
 			<a href="images/resume.pdf" class="nodeco"> <h1 class="inline-block nav vcenter">RESUME</h1> </a>
@@ -43,11 +44,12 @@
 				&emsp;&nbsp;Here are a few programming languages and technologies I've been working with recently:
 				<div class="listL">
 					<ul>
-						<li>Java</li>
+						<li>Python</li>
 						<li>R</li>
 						<li>JavaScript</li>
-						<li>Tableau</li>
-						<li>MongoDB</li>
+						<li>Neo4j</li>
+						<li>C++</li>
+						<li>AWS</li>
 						<li>Redis</li>
 						<li>Jupyter Notebook</li>
 						<li>HTML</li>
@@ -56,23 +58,70 @@
 				</div>
 				<div class="listR">
 					<ul>
-						<li>Python</li>
+						<li>Java</li>
 						<li>SQL</li>
 						<li>Scala</li>
-						<li>C++</li>
+						<li>Tableau</li>
+						<li>MongoDB</li>
+						<li>Docker</li>
 						<li>Apache Spark</li>
-						<li>Neo4j</li>
 						<li>Racket</li>
 						<li>CSS</li>
+						<li>Apache Airflow</li>
 					</ul>
 				</div>
 			</p>
 		</div>
 
+		<div class="spaceBig"> </div>
+
+		<div class="center">
+			<a name="publications"></a>
+			<h1 class="centerLabelForProject">Publications</h2>
+		</div>
+
 		<div class="center">
 			<a name="work"></a>
-			<h1 class="centerLabel">Teacher's Assistant</h2>
-			<p class="leftLabel"> My Impact... <p>
+			<h1 class="centerLabelForProject">Work Experience</h2>
+		</div>
+
+		<div class="center">
+			<h1 class="centerLabelToyota">Autonomous Driving and Algorithms Research Co-op, Funded by Toyota InfoTech Labs</h1>
+
+			<p class="leftLabel"> My Role... <p>
+			<p class="centerText">
+
+			&emsp;&nbsp;During this co-op I performed research on Autonomous Vehicles and Autonomous Driving Systems in cities at
+			the Northeastern University Network and Distributed Systems Security Lab (NDS2) funded by Toyota InfoTech Labs. <br>
+
+			</p>
+			<img src="images/toyota_and_nu.png" class="toyota_img">
+		</div>
+
+		<div class="center">
+			<a name="work"></a>
+			<h1 class="centerLabel">NLP Analyst Co-op, Genentech</h1>
+
+			<p class="leftLabel"> My Role... <p>
+			<p class="centerText">
+
+			&emsp;&nbsp;	During this co-op I worked as an NLP (Natural Language Processing) Analyst at Genentech. I was responsible
+			for their newly emerging graph database project. I applied the BERT Machine Learning and rule-based NLP algorithms to over
+			36 million PubMed abstracts to execute Name Entity Recognition and Relation Extraction. I also designed and built a
+			graph database, using Neo4j, containing over a hundred thousand biological entities and over ten million entity
+			associations using data extracted from PubMed abstracts and publicly available data. <br>
+
+			</p>
+
+			<img src="images/Genentech_Logo.png" class="img">
+		</div>
+
+		<div class="space"> </div>
+
+		<div class="center">
+			<h1 class="centerLabelSecond">Teacher's Assistant <br> Northeastern University in Boston and <span class='bigger'>London</span> </h1>
+			<div class="spaceSmall"> </div>
+			<p class="leftLabel"> My Impact... </p>
 			<blockquote class="centerQuote">
 				"Out of the many TAs that I had the chance to meet throughout the semester, I found Sid to be one of the most
 				effective. Whether it was helping me spot errors in my code or simply helping me grasp the general concepts, he was
@@ -107,14 +156,25 @@
 				respectful and approachable manner. Thank you!"
 			</blockquote>
 
-			<p class="leftLabel"> My Role... <p>
+			<p class="leftLabel"> My Role In Boston... </p>
 			<p class="centerText">
 
-			&emsp;&nbsp;For the last two years, I have supported the course Fundamentals of Computer Science 1 at Northeastern
-			University in a variety of roles. Initially I was a tutor, my freshman year, which entailed supporting Teacher's Assistants
+			&emsp;&nbsp;For the last four years, I have supported the course Fundamentals of Computer Science 1 at Northeastern
+			University in a variety of part-time roles. Initially I was a tutor, my freshman year, which entailed supporting Teacher's Assistants
 			during labs, grading homework, and hosting office hours. Following my freshman year, I was promoted to the role of
 			teacher's assistant where I organize and instruct a weekly lab lecture for up to 101 students (depending on the semester),
 			mentor computer science tutors, host weekly office hours, and grade exams.<br>
+
+			</p>
+
+			<p class="leftLabel"> My Role In <strong><span class='bigger'>London</span></strong>... </p>
+			<p class="centerText">
+
+			&emsp;&nbsp;After teaching this course part-time 6 semesters in Boston I was offered the opportunity to move
+			to London and teach the course full-time at Northeastern's satellite campus, formerly The New College of Humanities,
+			for the Fall 2022 semester. I taught 4 sections of the course, hosted office hours, and helped
+			design course material for the 120 students taking the course. Living and teaching in London was a dream come true
+			and the experience of a lifetime!<br>
 
 			</p>
 		</div>
@@ -125,6 +185,61 @@
 		</div>
 
 		<div class="space"> </div>
+
+		<img src="images/runner.gif" class="left">
+
+		<div class="bioReverse">
+			<h1 class="subname center quest">OpenAI Bipedal Walker</h2>
+				<p class="about alignLeft quest">
+					&emsp;&nbsp;Implimented Monte Carlo Learning, Q-Learning, and TD3 (Twin Delayed Deep Deterministic
+					Policy Gradient) algorithms for the OpenAI Bipedal Walker Environment, in which you teach a 2-legged robot
+					to walk/run. While Monte Carlo Learning and Q-Learning were largely unsuccessful, the TD3 approach was able to
+					successfully train the OpenAI Bipedal Walker to walk/run.
+					<br>
+
+				</p>
+				<p class="centerText">
+					The full project is available
+					<a href="https://github.com/sidneylafont/OpenAI_Bipedal_Walker_TD3" class="white">HERE </a>
+				</p>
+				<p class="centerText">
+					The full paper is available
+					<a href="images/walker_paper.pdf" class="white">HERE </a>
+				</p>
+		</div>
+
+		<div class="space"> </div>
+
+		<img src="images/ice.jpg" class="left">
+
+		<div class="bioReverse">
+			<h1 class="subname center quest">Predicting Extent of Arctic and Antarctic Sea Ice Cover</h2>
+				<p class="about alignLeft quest">
+					&emsp;&nbsp;Global warming is a problem that is becoming worse every day. It is going to have more and more drastic
+					effects on humankind unless it is addressed. Our project revolves around demonstrating the effect global warming,
+					through important climate features, is having on the extent of the Arctic and Antarctic sea ice cover, which is a
+					measurement of the amount of the ocean with at least some sea ice. The extent of the Arctic and Antarctic sea ice
+					cover is determined by the area of the ocean made up of at least 15% sea ice.
+					<br>
+					&emsp;&nbsp;In general, the goal of our project is to illustrate the severity of our current and future climate
+					crisis. We will be using a number of important climate features including the average monthly global temperature
+					from Berkeley Earth, CO2 levels from the Scripps Institute of Oceanography, and the number of natural disasters
+					that occurred on that specific date according to the Center for Research on the Epidemiology of Disasters to
+					predict the extent of the Arctic and Antarctic sea ice cover.
+					<br>
+
+				</p>
+				<p class="centerText">
+					The full project is available
+					<a href="https://github.com/sidneylafont/Predicting-Extent-of-Arctic-and-Antarctic-Sea-Ice-Cover" class="white">HERE </a>
+				</p>
+				<p class="centerText">
+					The full paper is available
+					<a href="images/ice_paper.pdf" class="white">HERE </a>
+				</p>
+		</div>
+
+		<div class="extra_space"> </div>
 
 		<img src="images/turbine.jpg" class="left">
 
@@ -190,9 +305,10 @@
 		<img src="images/bostonLocalFoodFestival.jpg" class="leftMiddle">
 
 		<div class="bioReverse">
+			<a name="LocalFood"></a>
 			<h1 class="subname center quest"> Boston Local Food Festival Dashboard</h2>
 				<p class="about alignLeft quest">
-					&emsp;&nbsp;This dashboard of visualizations was designed with the Sustainable
+					&emsp;&nbsp;I designed This dashboard of visualizations with the Sustainable
 					Business Network of Massachusetts for the Boston Local Food Festival. The Sustainable
 					Business Network of Massachusetts is a Boston based nonprofit organization that promotes local farms with
 					sustainable practices and organizes the Boston Local Food Festival. The Project was coded using a
@@ -324,10 +440,77 @@
 				</p>
 		</div>
 
+		<div class="space"> </div>
+
+
+		<div class="center">
+			<a name="projects"></a>
+			<h1 class="centerLabelForProject">Volunteering</h2>
+		</div>
+
+		<div class="space"> </div>
+
+		<img src="images/xcel_logo.png" class="left">
+
+		<div class="bioReverse">
+			<h1 class="subname center quest">X-Cel Education GED Math Tutor</h2>
+				<p class="about alignLeft quest">
+					&emsp;&nbsp;Taught classes of 10 adults high school level math in their pursuit of a high school equivalency degree (GED).
+					<br>
+
+				</p>
+				<p class="centerText">
+					More information about X-Cel Education
+					<a href="http://www.x-celeducation.org/" class="white">HERE </a>
+				</p>
+		</div>
+
+
+		<div class="space"> </div>
+
+		<img src="images/826-boston-logo.jpeg" class="left">
+
+		<div class="bioReverse">
+			<h1 class="subname center quest">826 Boston English Tutor</h2>
+				<div class="space"> </div>
+				<p class="about alignLeft quest">
+					&emsp;&nbsp;Helped teach middle school students' to write, edit, manage and promote a literary magazine
+					during after school club.<br>
+
+				</p>
+				<p class="centerText">
+					More information about 826 Boston
+					<a href="https://826boston.org/" class="white">HERE </a>
+				</p>
+		</div>
+
+
+		<div class="space"> </div>
+
+		<img src="images/bostonLocalFoodFestival.jpg" class="left">
+
+		<div class="bioReverse">
+			<h1 class="subname center quest"> Boston Local Food Festival</h2>
+				<p class="about alignLeft quest">
+					&emsp;&nbsp;I designed This dashboard of visualizations with the Sustainable
+					Business Network of Massachusetts for the Boston Local Food Festival. The Sustainable
+					Business Network of Massachusetts is a Boston based nonprofit organization that promotes local farms with
+					sustainable practices and organizes the Boston Local Food Festival. The Project was coded using a
+					combination of JavaScript, D3 (a JavaScript library for creating interactive data visualizations in	web browsers),
+					HTML, and CSS.<br>
+
+					&emsp;&nbsp;For more information about this project please scroll up to the
+					Personal Projects section or click <a href="#LocalFood" class="white">HERE</a> <br>
+				</p>
+		</div>
+
+
+
+
 
 		<div class="signature">
 			<p class="quest sig center">Coded and Designed by Sidney Roch La Fontaine</p>
-			<p class="quest sig center">Boston, MA | Last Updated August 2020</p>
+			<p class="quest sig center">Boston, MA | Last Updated August 2021</p>
 		</div>
 	</body>
 </html>
