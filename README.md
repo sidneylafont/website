@@ -1,3 +1,3 @@
 # Personal website
 
-Hello my name is Sidney La Fontaine check out my personal website: http://sidneylafontaine.com/
+Hello my name is Sidney La Fontaine check out my personal website: https://sidneylafont.github.io/website/
