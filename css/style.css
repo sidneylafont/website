@@ -70,12 +70,14 @@ body{
 }
 
 .listL {
+	margin-top: -2%;
 	float: left;
 	width: 50%;
 	font-size: 20px;
 }
 
 .listR {
+	margin-top: -2%;
 	float: right;
 	width: 50%;
 	font-size: 20px;
@@ -84,7 +86,18 @@ body{
 .centerLabel {
 	font-family: 'Questrial', sans-serif;
 	font-size: 45px;
-	padding-top: 15%;
+	padding-top: 10%;
+	max-width: 80%;
+	text-align:center;
+	margin:0 auto;
+	padding-bottom:1%;
+}
+
+
+.centerLabelTopJob {
+	font-family: 'Questrial', sans-serif;
+	font-size: 45px;
+	padding-top: 5%;
 	max-width: 80%;
 	text-align:center;
 	margin:0 auto;
@@ -94,7 +107,7 @@ body{
 .centerLabelToyota {
 	font-family: 'Questrial', sans-serif;
 	font-size: 45px;
-	padding-top: 10%;
+	padding-top: 5%;
 	max-width: 80%;
 	text-align:center;
 	margin:0 auto;
@@ -118,9 +131,9 @@ body{
 .centerLabelForProject {
 	font-family: 'Questrial', sans-serif;
 	font-size: 55px;
-	padding-top: 8%;
+	padding-top: 5%;
 	text-align: center;
-	padding-bottom:1%;
+	/*padding-bottom:1%;*/
 }
 
 .centerText {
@@ -190,7 +203,8 @@ h1 {
 }
 
 .right {
-	margin-right: 8%;
+	margin-top: 1%;
+	margin-right: 7%;
 	border:40px solid #4c4c71;
 	float: right;
 	height: 25%;
@@ -238,6 +252,13 @@ h1 {
 .toyota_img {
 	padding-top: 3%;
 	width: 50%;
+	height: auto;
+}
+
+.csh_img {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	width: 40%;
 	height: auto;
 }
 
